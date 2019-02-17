@@ -25,16 +25,16 @@
     <h1>Магазин готовых шаблонов</h1>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр шаблонов</h2>
+      <h3>Стоимость</h3>
+      <div class="price-range">
+        <span class="handle">Минимальная цена</span>
+        <span class="handle">Максимальная цена</span>
+        <span>От</span>
+        <span class="output-price">0</span>
+        <span>До</span>
+        <span class="output-price">15000</span>
+      </div>
       <form class="filter" method="get" action="https://htmlacademy.ru">
-        <h3>Стоимость</h3>
-        <div class="price-range">
-          <span class="handle">Минимальная цена</span>
-          <span class="handle">Максимальная цена</span>
-          <span>От</span>
-          <span class="output-price">0</span>
-          <span>До</span>
-          <span class="output-price">15000</span>
-        </div>
         <fieldset>
           <legend>Сетка:</legend>
           <ul>
@@ -54,15 +54,16 @@
           </ul>
         </fieldset>
         <button class="button" type="submit">Показать</button>
+      </form>
+      <div class="sorting">
+        <h3>Сортировать:</h3>
+        <button class="sorting-parameters-current" type="button">По цене</button>
+        <button class="sorting-parameters" type="button">По типу</button>
+        <button class="sorting-parameters" type="button">По названию</button>
+        <button class="button-sorting" type="button">По убыванию</button>
+        <button class="button-sorting" type="button">По возрастанию</button>
+      </div>
     </section>
-    <div class="sorting">
-      <h3>Сортировать:</h3>
-      <button class="sorting-parameters-current" type="button">По цене</button>
-      <button class="sorting-parameters" type="button">По типу</button>
-      <button class="sorting-parameters" type="button">По названию</button>
-      <button class="button-sorting" type="button">По убыванию</button>
-      <button class="button-sorting" type="button">По возрастанию</button>
-    </div>
     <ul class="catalog-list">
       <li>
         <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
