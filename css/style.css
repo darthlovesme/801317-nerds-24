@@ -295,6 +295,23 @@ button:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
+.sorting-parameters {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color:rgba(0, 0, 0, 0.3);
+}
+
+.sorting-parameters:hover,
+.sorting-parameters:focus {
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.sorting-parameters:active,
+.sorting-parameters-current {
+color:#000000;  
+}
+
 .catalog-list {
   list-style: none;
 }
