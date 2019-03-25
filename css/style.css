@@ -35,7 +35,7 @@ a {
 }
 
 .cart {
-  background-image:url("../img/cart-icon.svg");
+  background-image: url("../img/cart-icon.svg");
   background-position: left;
   background-repeat: no-repeat;
 }
@@ -299,25 +299,55 @@ button:active {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color:rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .sorting-parameters:hover,
 .sorting-parameters:focus {
-  color:rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .sorting-parameters:active,
 .sorting-parameters-current {
-color:#000000;  
+  color: #000000;
 }
 
 .catalog-list {
   list-style: none;
 }
 
+.catalog-item h3 {
+  color: #000000;
+}
+
 .catalog-item {
   background-image: url("../img/browser.svg");
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.pages-list a {
+  color: #000000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.pages-list a{
+  list-style: none;
+  background-color: #eeeeee;
+}
+
+.pages-list a:hover,
+.pages-list a:focus{
+  background-color: #dfdfdf;
+}
+
+.pages-list a:active{
+  background-color: #d5d5d5;
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+
+.pages-list .current {
+  background-color: #ffffff;
+  border:3px solid #dbdbdb;
 }
